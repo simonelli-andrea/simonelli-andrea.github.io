@@ -21,15 +21,15 @@
                 <name>Andrea Simonelli</name>
               </p>
               <p>
-                I am a 2nd year PhD student at the University of Trento (Italy), co-funded by Mapillary and Fondazione Bruno Kessler (FBK). My advisors are prof. Elisa Ricci (UniTn) and dr. Samuel Rota Bulo' (Facebook).
+                I am a 3rd year PhD student at the University of Trento (Italy). My advisors are prof. Elisa Ricci (University of Trento) and dr. Samuel Rota Bulo' (Facebook Reality Labs).
               </p>
 
               <p>
-                I received the bachelor and master degree (summa cum laude) from the University of Trento in 2015 and 2018, respectively. During my PhD I collaborate both with Mapillary Research (led by dr. Peter Kontschieder) and the Technologies of Vision group (led by dr. Stefano Messelodi) at FBK. Being co-funded by research as well as industry organizations I take part to both research and industrial projects, having the great opportunity not only to develop novel solutions but also to apply them to real-world scenarios. 
+              I received the bachelor and master degree (summa cum laude) from the University of Trento in 2015 and 2018, respectively.
               </p>
 
               <p>
-                My research is focused on Machine Learning and Computer Vision. In particular, I have been tackling the 3D Object Detection task in the Monocular and RGB-only setting.
+                My research is focused on Machine Learning and Computer Vision. In particular, I have been tackling the 3D Object Detection task in the challenging monocular and RGB-only setting.
               </p>
 
               <p style="text-align:center">
@@ -56,7 +56,102 @@
         </tbody></table>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src='images/autorf.jpg' width="160">
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
 
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://niessnerlab.org/projects/mueller2022autorf.html">
+                <papertitle>AutoRF: Learning 3D Object Radiance Fields from Single View Observations</papertitle>
+              </a>
+              <br>
+              <a href="https://niessnerlab.org/members/norman_mueller/profile.html">Norman Müller</a>,
+              <strong>Andrea Simonelli</strong>,
+              <a href="https://scholar.google.com/citations?user=vW1gaVEAAAAJ&hl=en">Lorenzo Porzi</a>,
+              <a href="https://scholar.google.com/citations?user=484sccEAAAAJ&hl=en">Samuel Rota Bulò</a>,
+              <a href="https://niessnerlab.org/index.html">Matthias Nießner</a>,
+              <a href="https://scholar.google.com/citations?user=CxbDDRMAAAAJ&hl=en">Peter Kontschieder</a>,
+              <br>
+        <em>CVPR</em>, 2022  
+              <br>
+              <a href="https://niessnerlab.org/projects/mueller2022autorf.html">Project page</a>
+              <p>From just a single view, we learn neural 3D object representations for free novel view synthesis. This setting is in stark contrast to the majority of existing works that leverage multiple views of the same object, employ explicit priors during training, or require pixel-perfect annotations. Our method decouples object geometry, appearance, and pose enabling generalization to unseen objects, even across different datasets of challenging real-world street scenes such as nuScenes, KITTI, and Mapillary Metropolis.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src='images/survey.png' width="160">
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2202.02980.pdf">
+                <papertitle>3D Object Detection from Images for Autonomous Driving: A Survey</papertitle>
+              </a>
+              <br>
+              <strong>Andrea Simonelli</strong>,
+              <a href="https://scholar.google.com/citations?user=8PuKa_8AAAAJ&hl=zh-CN">Xinzhu Ma</a>,
+              <a href="https://scholar.google.com/citations?user=pw_0Z_UAAAAJ&hl=zh-CN">Wanli Ouyang</a>,
+              <a href="https://scholar.google.com/citations?user=xf1T870AAAAJ&hl=en">Elisa Ricci</a>
+              <br>
+        <em>Arxiv</em>, 2022  
+              <br>
+              <a href="https://arxiv.org/pdf/2202.02980.pdf">Arxiv</a>
+              <p>3D object detection from images, one of the fundamental and challenging problems in autonomous driving, has received increasing attention from both industry and academia in recent years. Benefiting from the rapid development of deep learning technologies, image-based 3D detection has achieved remarkable progress. Particularly, more than 200 works have studied this problem from 2015 to 2021, encompassing a broad spectrum of theories, algorithms, and applications. However, to date no recent survey exists to collect and organize this knowledge. In this paper, we fill this gap in the literature and provide the first comprehensive survey of this novel and continuously growing research field, summarizing the most commonly used pipelines for image-based 3D detection and deeply analyzing each of their components.</p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src='images/pseudo_lidar.png' width="160">
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Simonelli_Are_We_Missing_Confidence_in_Pseudo-LiDAR_Methods_for_Monocular_3D_ICCV_2021_paper.pdf">
+                <papertitle>Are we Missing Confidence in Pseudo-LiDAR Methods for Monocular 3D Object Detection?</papertitle>
+              </a>
+              <br>
+              <strong>Andrea Simonelli</strong>,
+              <a href="https://scholar.google.com/citations?user=484sccEAAAAJ&hl=en">Samuel Rota Bulò</a>,
+              <a href="https://scholar.google.com/citations?user=vW1gaVEAAAAJ&hl=en">Lorenzo Porzi</a>,
+              <a href="https://scholar.google.com/citations?user=CxbDDRMAAAAJ&hl=en">Peter Kontschieder</a>,
+              <a href="https://scholar.google.com/citations?user=xf1T870AAAAJ&hl=en">Elisa Ricci</a>
+              <br>
+        <em>ICCV</em>, 2021  
+              <br>
+              <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Simonelli_Are_We_Missing_Confidence_in_Pseudo-LiDAR_Methods_for_Monocular_3D_ICCV_2021_paper.pdf">PDF</a>
+              <p>We closely analyze a novel branch of 3D Object Detection methods from Images i.e. Pseudo-LiDAR based methods. We identify a flaw in their widely popular training protocol, which introduces a distorted perception about their performance. On top of this, we propose to introduce a novel Absolute and Relative 3D Confidence module which is demonstrated to increase 3D Detection performance substantially.</p>
+            </td>
+          </tr>
 
 
           <tr onmouseout="ff_stop()" onmouseover="ff_start()">
@@ -106,6 +201,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9200697">
               <papertitle>Disentangling Monocular 3D Object Detection: From Single to Multi-Class Recognition</papertitle>
               <br>
               <strong>Andrea Simonelli</strong>,
@@ -116,6 +212,7 @@
               <br>
         <em>TPAMI</em>, 2020  
               <br>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9200697">IEEExplore</a>
               <p>We extend our previous ICCV19 work to the multi-class scenario. In particular, we apply the MonoDIS detector to the challenging nuScenes dataset, achieving comparable results with a LiDAR baseline. In this work we also report updated scores on KITTI3D. </p>
             </td>
           </tr>
@@ -135,7 +232,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/1905.12365">
+              <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Simonelli_Disentangling_Monocular_3D_Object_Detection_ICCV_2019_paper.pdf">
                 <papertitle>Disentangling Monocular 3D Object Detection</papertitle>
               </a>
               <br>
@@ -147,7 +244,7 @@
               <br>
         <em>ICCV</em>, 2019  
               <br>
-              <a href="https://arxiv.org/abs/1905.12365">arXiv</a>
+              <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Simonelli_Disentangling_Monocular_3D_Object_Detection_ICCV_2019_paper.pdf">PDF</a>
               <p>We propose a disentangling transformation which simplifies the training dynamics in the presence of losses with complex interactions of parameters, sidestepping the issue of balancing independent regression terms. We also propose a self-supervised 3D confidence which is very useful to understand the quality of the predicted 3D bounding boxes. In addition, we resolve a flaw in the (now deprecated) KITTI3D metric which affected all the previously published results. Our proposed metric is now the official KITTI3D metric, used to evaluate all methods on the KITTI3D benchmark.</p>
             </td>
           </tr>
@@ -184,7 +281,24 @@
             </td>
           </tr>
 
-    
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Events</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+          <tr>
+            <td style="padding:20px;width:10px;vertical-align:middle"><img width=100% src="images/logo.png"></td>
+            </td>
+            <td width="75%" valign="center">
+              <a href="https://sites.google.com/unitn.it/3dodi">1st Workshop on 3D Object Detection from Images, ICCV 2021</a>
+            </td>
+          </tr>
+
         </tbody></table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
@@ -236,7 +350,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                The source code for this website has been taken from <a href="https://github.com/jonbarron/jonbarron_website"> this</a> nice repo.
+                The source code for this website has been taken from <a href="https://github.com/jonbarron/jonbarron_website"> this</a> nice repo. Last update: March 2022.
               </p>
             </td>
           </tr>
