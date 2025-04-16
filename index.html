@@ -84,6 +84,37 @@
 
           <tr onmouseout="ff_stop()" onmouseover="ff_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src='images/survey.png' width="160">
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2202.02980.pdf">
+                <papertitle>3D Object Detection from Images for Autonomous Driving: A Survey</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=8PuKa_8AAAAJ&hl=zh-CN">Xinzhu Ma</a>,
+              <a href="https://scholar.google.com/citations?user=pw_0Z_UAAAAJ&hl=zh-CN">Wanli Ouyang</a>,
+              <strong>Andrea Simonelli</strong>,
+              <a href="https://scholar.google.com/citations?user=xf1T870AAAAJ&hl=en">Elisa Ricci</a>
+              <br>
+        <em>TPAMI</em>, 2024
+              <br>
+              <a href="https://arxiv.org/pdf/2202.02980.pdf">Paper link</a>
+              <p>3D object detection from images, one of the fundamental and challenging problems in autonomous driving, has received increasing attention from both industry and academia in recent years. Benefiting from the rapid development of deep learning technologies, image-based 3D detection has achieved remarkable progress. Particularly, more than 200 works have studied this problem from 2015 to 2021, encompassing a broad spectrum of theories, algorithms, and applications. However, to date no recent survey exists to collect and organize this knowledge. In this paper, we fill this gap in the literature and provide the first comprehensive survey of this novel and continuously growing research field, summarizing the most commonly used pipelines for image-based 3D detection and deeply analyzing each of their components.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
               <img src='images/autorf.jpg' width="160">
               <script type="text/javascript">
                 function ff_start() {
@@ -114,38 +145,6 @@
               <p>From just a single view, we learn neural 3D object representations for free novel view synthesis. This setting is in stark contrast to the majority of existing works that leverage multiple views of the same object, employ explicit priors during training, or require pixel-perfect annotations. Our method decouples object geometry, appearance, and pose enabling generalization to unseen objects, even across different datasets of challenging real-world street scenes such as nuScenes, KITTI, and Mapillary Metropolis.</p>
             </td>
           </tr>
-
-          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/survey.png' width="160">
-              <script type="text/javascript">
-                function ff_start() {
-                  document.getElementById('ff_image').style.opacity = "1";
-                }
-
-                function ff_stop() {
-                  document.getElementById('ff_image').style.opacity = "0";
-                }
-                ff_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/pdf/2202.02980.pdf">
-                <papertitle>3D Object Detection from Images for Autonomous Driving: A Survey</papertitle>
-              </a>
-              <br>
-              <a href="https://scholar.google.com/citations?user=8PuKa_8AAAAJ&hl=zh-CN">Xinzhu Ma</a>,
-              <a href="https://scholar.google.com/citations?user=pw_0Z_UAAAAJ&hl=zh-CN">Wanli Ouyang</a>,
-              <strong>Andrea Simonelli</strong>,
-              <a href="https://scholar.google.com/citations?user=xf1T870AAAAJ&hl=en">Elisa Ricci</a>
-              <br>
-        <em>TPAMI</em>, 2024
-              <br>
-              <a href="https://arxiv.org/pdf/2202.02980.pdf">Paper link</a>
-              <p>3D object detection from images, one of the fundamental and challenging problems in autonomous driving, has received increasing attention from both industry and academia in recent years. Benefiting from the rapid development of deep learning technologies, image-based 3D detection has achieved remarkable progress. Particularly, more than 200 works have studied this problem from 2015 to 2021, encompassing a broad spectrum of theories, algorithms, and applications. However, to date no recent survey exists to collect and organize this knowledge. In this paper, we fill this gap in the literature and provide the first comprehensive survey of this novel and continuously growing research field, summarizing the most commonly used pipelines for image-based 3D detection and deeply analyzing each of their components.</p>
-            </td>
-          </tr>
-
 
           <tr onmouseout="ff_stop()" onmouseover="ff_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
