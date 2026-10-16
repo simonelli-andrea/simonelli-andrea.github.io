@@ -55,6 +55,8 @@
       color-scheme: dark;
     }
   }
+  /* An explicit light choice opts out of forced dark modes (e.g. Brave Night mode) */
+  :root[data-theme="light"] { color-scheme: only light; }
   :root[data-theme="dark"] {
     --bg: #0E161B;
     --surface: #142028;
